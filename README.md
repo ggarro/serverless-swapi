@@ -1,4 +1,4 @@
-## Para usar el endpoint de creacion 
+## BASE DE DATOS
 Desplegar la base de datos en algun servidor de MySQL, usando el archivo en database/create-table-template.sql y luego colocarlo en .env
 
 ````env
@@ -8,9 +8,9 @@ MYSQL_PASSWD=
 MYSQL_DB=
 ````
 
-## Para consumir los endpoints disponibles
+## END POINTS DISPONIBLES
 
-### Crear Persona Local
+### Crear Persona
 ````curl
 curl --request POST \
   --url http://localhost:3000/dev/v1/people \
